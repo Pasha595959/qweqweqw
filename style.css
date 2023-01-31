@@ -1,0 +1,133 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+}
+.body_in-frame {
+  background: url(https://business.cdn-tinkoff.ru/static/projects/sso-mono/assets/tinkoff-background.svg) no-repeat 100% 100%,#fcfcfc;
+}
+#rectangle {
+  position: absolute;
+	top: calc(30%);
+  width: 515px;
+  height: 200px;
+  background: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0 4px 24px rgba(0,0,0,.12);
+  color: rgba(98, 97, 97, 0.518);
+}
+.b-title{
+  position: absolute;
+  top: 40px;
+  left: 27%;
+  font-size: 28px;
+font-family: tinkoffsans,-apple-system,BlinkMacSystemFont,Segoe UI,system-ui,Roboto,Helvetica Neue,sans-serif;
+line-height: 32px;
+font-weight: 500;
+margin: 0 0 12px;
+word-wrap: break-word;
+color: black;
+}
+
+.input-wrap{
+  position: absolute;
+  top: 50%;
+}
+.phone{
+  position: absolute;
+  box-shadow: none;
+  height: 56px;
+  width: 250px;
+  left: 40px;
+  border-radius: 10px;
+  box-shadow: none;
+  background-color: #ecf1f7;
+  border-width: 0px;
+}
+
+.phone:focus  {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0);
+  }
+  
+.btn{
+  position: absolute;
+  top: 50%;
+  left: 317px;
+}
+input[type=submit]{
+  position: absolute;
+  background-color: #ffdd2d;
+  height: 56px;
+  width: 150px;
+  border-radius: 10px;
+  box-shadow: none;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover{
+  position: absolute;
+  background-color: #fcd31b;
+  height: 56px;
+  width: 150px;
+  border-radius: 10px;
+  box-shadow: none;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+.input-wrap input[type="tel"]{padding-left: 20px;}
+
+.textofficial{
+  position: absolute;
+  top: 88%;
+  font-weight: 400;
+  width: 580px;
+font-size: 14px;
+font-family: haas,helvetica,arial,sans-serif;
+line-height: 24px;
+color: #adaeb0;
+text-align: center;
+}
+.textpage{
+  position: absolute;
+  top: 20%;
+  text-align: center;
+  color: #2d2d2ddf;
+  font-family: helvetica,arial,sans-serif;
+}
+.textpage2{
+  position: absolute;
+  top: 65%;
+  text-align: center;
+  color: #2d2d2ddf;
+  font-family: helvetica,arial,sans-serif;
+}
+.btnn{
+  position: absolute;
+  top: 70%;
+  left: 44.5%;
+}
+button{
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  background-color: #28a7e8;
+  color: white;
+  border-radius: 20px;
+  border: none;
+}
+
+button:hover{
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  background-color: #2c9dd6;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
